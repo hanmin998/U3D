@@ -65,25 +65,28 @@
 
         GUI.Toolbar();
 
+> 
 用于创建一个工具栏，返回值表示在ToolBar控件中选择的ID。
 
         GUI.Toggle();
 
+> 
 用于创建一个单选控件，返回值表示单选后的ID。
 
 ### Slider
 
 由滑块与滑动条组成。可计算出滑块在滑动过程中占整个滑动条的比例。
 
-> 
 滑动可分为两种：一种为水平滑动条（HorizontalSlider），一种为垂直滑动条（VerticalSlider），他们之间的用法完全相同。
 
         GUI.VerticalSlider();
 
+> 
 用于纵向滑块，它的第一个参数表示滑动条显示的范围，第二个参数表示当前滑动的数值，第三个参数表示滑动条起点的数值。
 
         GUI.HorizontalSlider();
 
+> 
 用于横向滑块，具体参数和GUI.VerticalSlider()类似。
 
 
@@ -93,10 +96,12 @@
 
         Start();
 
+> 
 设置默认情况下滚动条的位置，数值scrollPosition[0]表示滚动视图横向滚动滑块位置，数组scrollPosition[1]表示滚动视图纵向滚动滑块位置。将两个数组全部存储在Vector2中，拖动滚动条后，程序内存中会动态修改两个滚动条的位置。
 
         GUI.BeginScrollView();
 
+> 
 用于开始滚动视图，第一个参数用于设置滚动显示视图的范围，第二个参数用于设置滚动视图条的起始位置，第三个参数用于设置滚动整体显示范围（必须小于游戏视图整体范围），第四个参数和第五个参数为true时，表示内容超出滚动显示范围后显示滚动条，否则不显示。
 
 GUI.BeginScrollView()与GUI.EndScrollView()必须成对出现，否则会抛出异常。
@@ -107,16 +112,20 @@ GUI.BeginScrollView()与GUI.EndScrollView()必须成对出现，否则会抛出�
 
         GUIContent();
 
+> 
 设置提示信息。
 
         GUI.tooltip();
 
+> 
 得到GUIContent()方法中第二个字符串参数设置的提示字符串。
 
         GUI.BeginGroup();
 
+> 
 创建一个群组视图，但是必须以GUI.EndGroup()方法结束。可设定群组视图的区域，在该区域中可添加任意控件，超出范围不予显示。
 
         GUI.DrawTexture();
 
+> 
 绘制视图中的贴图，第一个参数表示贴图的绘制区域，第二个参数表示贴图资源。
