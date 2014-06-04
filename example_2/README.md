@@ -158,3 +158,22 @@ GUI.skin=mySkin为当前GUI的皮肤赋值，mySkin为外部创建的自定义�
 ### GUILayoutOption
 
 可直接设定控件的宽度高度等，无需考虑控件与控件的坐标是否会重叠，GUILayout会自动帮我们把所有的控件以线性的排列方式显示在屏幕当中。GUILayoutOption是以一个数组的形式存储设置信息的，比如同时设定某个控件的宽度与高度。
+
+### LinearLayout
+
+线性连续的方式将GUI控件有规律的显示在屏幕上，分为水平线性布局，垂直线性布局。默认为垂直线性布局。可使用嵌套的形式来制作游戏界面。
+
+        BeginHorizontal()|BeginVertical();
+
+
+        EndHorizontal()|Endvertial();
+
+必须成对出现。
+
+### 控件偏移
+
+Space()设置控件（布局）之间的偏移量。参数为偏移距离。
+
+### 对齐方式
+
+FlexibleSpace()将两个控件完全左右或上下对齐在显示区域内。
