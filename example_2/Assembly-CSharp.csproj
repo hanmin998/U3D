@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{C1CE1F61-2DC0-6F5E-C35D-F3040973EA92}</ProjectGuid>
+	<ProjectGuid>{20EB3A64-CF2E-A881-A02D-FC2742BE6F81}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
 	<BaseDirectory>Assets</BaseDirectory>
@@ -46,24 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\IJS_2_GUISkin.js" />
-     <Compile Include="Assets\JS_2_Button.js" />
-     <Compile Include="Assets\JS_2_China.js" />
-     <Compile Include="Assets\JS_2_CustomGUI.js" />
-     <Compile Include="Assets\JS_2_Flexible.js" />
-     <Compile Include="Assets\JS_2_GUILO.js" />
-     <Compile Include="Assets\JS_2_GUILayout.js" />
-     <Compile Include="Assets\JS_2_GroupView.js" />
-     <Compile Include="Assets\JS_2_Label.js" />
-     <Compile Include="Assets\JS_2_Linearlayout.js" />
-     <Compile Include="Assets\JS_2_ScrollView.js" />
-     <Compile Include="Assets\JS_2_Slider.js" />
-     <Compile Include="Assets\JS_2_Space.js" />
-     <Compile Include="Assets\JS_2_TextFiled.js" />
-     <Compile Include="Assets\JS_2_ToolBar.js" />
-     <Compile Include="Assets\JS_2_Window.js" />
-     <Compile Include="Assets\JS_2_font.js" />
-     <Compile Include="Assets\JS_2_instans.js" />
+     <Compile Include="Assets\JS_2_ChinaC.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

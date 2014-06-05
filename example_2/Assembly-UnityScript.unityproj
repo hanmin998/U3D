@@ -46,9 +46,24 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\IJS_2_GUISkin.js" />
      <Compile Include="Assets\JS_2_Button.js" />
+     <Compile Include="Assets\JS_2_China.js" />
+     <Compile Include="Assets\JS_2_CustomGUI.js" />
+     <Compile Include="Assets\JS_2_Flexible.js" />
+     <Compile Include="Assets\JS_2_GUILO.js" />
+     <Compile Include="Assets\JS_2_GUILayout.js" />
+     <Compile Include="Assets\JS_2_GroupView.js" />
      <Compile Include="Assets\JS_2_Label.js" />
+     <Compile Include="Assets\JS_2_Linearlayout.js" />
+     <Compile Include="Assets\JS_2_ScrollView.js" />
+     <Compile Include="Assets\JS_2_Slider.js" />
+     <Compile Include="Assets\JS_2_Space.js" />
      <Compile Include="Assets\JS_2_TextFiled.js" />
+     <Compile Include="Assets\JS_2_ToolBar.js" />
+     <Compile Include="Assets\JS_2_Window.js" />
+     <Compile Include="Assets\JS_2_font.js" />
+     <Compile Include="Assets\JS_2_instans.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
