@@ -46,7 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Resources\JS_3_2DGame.js" />
+     <Compile Include="Assets\Resources\JS_3_Animation1.js" />
      <Compile Include="Assets\Resources\JS_3_Texture.js" />
+     <Compile Include="Assets\Resources\JS_3_Tool.js" />
      <Compile Include="Assets\Resources\Js_3_animation.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

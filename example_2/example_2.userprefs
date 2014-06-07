@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\JS_2_China.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\JS_2_ChinaC.cs">
     <Files>
-      <File FileName="Assets\JS_2_China.js" Line="7" Column="1" />
+      <File FileName="Assets\JS_2_China.js" Line="3" Column="20" />
+      <File FileName="Assets\JS_2_ChinaC.cs" Line="5" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
