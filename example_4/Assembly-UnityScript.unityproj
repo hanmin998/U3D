@@ -50,6 +50,7 @@
      <Compile Include="Assets\addComponent.js" />
      <Compile Include="Assets\clone.js" />
      <Compile Include="Assets\cube_script.js" />
+     <Compile Include="Assets\scale.js" />
      <Compile Include="Assets\sendMessage.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
