@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\JS_test.js" />
      <Compile Include="Assets\Test.js" />
      <Compile Include="Assets\addComponent.js" />
      <Compile Include="Assets\clone.js" />

@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{8CF11268-DC91-1655-7E81-E4905740058A}</ProjectGuid>
+	<ProjectGuid>{54DA0725-6448-F3D2-FD6C-9AA40CE98BDD}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
 	<BaseDirectory>Assets</BaseDirectory>
@@ -46,13 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\JS_test.js" />
-     <Compile Include="Assets\Test.js" />
-     <Compile Include="Assets\addComponent.js" />
-     <Compile Include="Assets\clone.js" />
-     <Compile Include="Assets\cube_script.js" />
-     <Compile Include="Assets\scale.js" />
-     <Compile Include="Assets\sendMessage.js" />
+     <Compile Include="Assets\CS_test.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
